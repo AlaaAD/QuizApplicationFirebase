@@ -19,6 +19,8 @@ public class Quiz extends AppCompatActivity {
         setContentView(R.layout.activity_quiz);
         btnPlay = findViewById(R.id.btnPlay);
 
+
+
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
